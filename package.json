@@ -1,0 +1,8 @@
+{
+  "name": "howkava",
+  "version": "1.0.0",
+  "description": "an informational site to help share how kava is made",
+  "main": "index.js",
+  "author": "Ivan Villa <ivan@wearescribe.com>",
+  "license": "MIT"
+}
