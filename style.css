@@ -3,6 +3,10 @@ body {
     color: #a3a3a8;
 }
 
+.site-title {
+    padding: 1rem 0 1rem;
+}
+
 .video__wrap {
     position: relative;
     width: 100%;
@@ -36,7 +40,7 @@ body {
 background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 color: white;
-padding: 0 0 1rem 0;
+padding: 0 0 3px 0;
 text-align: center;
 }
 
@@ -53,7 +57,7 @@ text-align: center;
 }
 
 .copyright {
-    margin-top: 10px;
+    margin-top: 3px;
     font-size: .8rem;
 }
 
@@ -78,5 +82,37 @@ h2 {
     text-transform: uppercase;
     color: white !important;
     margin-top: 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*********************
+SLIDER
+**********************/
+.slide-wrap {
+    position: relative;
+}
+.slide-text {
+    background-color: #242424;
+    padding: 1rem 1rem 3rem;
+}
+
+.slide-text p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+
+@media (min-width:900px) {
+    .slide-text {
+        position: absolute;
+        top: 22%;
+        right: 60px;
+        background-color: rgba(0,0,0,.0);
+    }
 }
 
