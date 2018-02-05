@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>How To Make Kava</title>
 
+    <!--swiper slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+
     <!-- styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
     <link rel="stylesheet" href="/style.css">
@@ -13,6 +17,20 @@
     <link href="https://fonts.googleapis.com/css?family=Damion|Oswald|Raleway" rel="stylesheet">
 </head>
 <body>
+<Section class="slider">
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="/img/kava-slide-1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/img/kava-slide-2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/img/kava-slide-3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/img/kava-slide-4.jpg" alt=""></div>
+        </div>
+    </div>
+</Section>
+
 <section class="hero">
     <div class="container">
         <div class="columns">
@@ -20,7 +38,7 @@
                 <h1 class="title is-1">How To Make Kava</h1>
 
                 <div class="video__wrap">
-                    <iframe class="video" src="https://www.youtube.com/embed/ERPGL6lMXBs?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                    <iframe class="video" src="https://www.youtube.com/embed/videoseries?list=PLUKQ7w0CRuf9U28NIGJ6rgVFUdh9RPI7G&autoplay=1" frameborder="0" allow="autoplay; encrypted-media"
                         allowfullscreen></iframe>
                 </div>
                 <h2>Find out more</h2>
@@ -33,15 +51,20 @@
     </section>
 
     <footer class="footers">
+        
+        <div class="footer-jungle">
+            <img class="footer-logo" src="/img/logo-white.png" alt="">
+        </div>
             <div class="container">
               <div class="content has-text-centered">
-                <p>
+                <p class="copyright">
                    &copy; 2018 <strong>Root of Happiness Kava </strong>. 
                 </p>
               </div>
             </div>
           </footer>
 
-
+<!-- footer Script -->
+<script src="/script.js"></script>
 </body>
 </html>
