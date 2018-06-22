@@ -3,6 +3,50 @@ body {
     color: #a3a3a8;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    background: url('/img/background-kava.jpeg');
+    background-position: center bottom;
+}
+
+
+.black {
+    background-color: #242424dc;
+}
+
+.head-logo {
+    max-width: 120px;
+    margin:0.2rem 0 0;
+    opacity: .4;
+}
+
+.title {
+	font-family: "Montserrat";
+    text-align: center;
+    font-size: 1rem;
+	color: rgb(116, 116, 116);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    letter-spacing: 1px;
+    padding: 2rem 0 0;
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+    font-size: 64px;
+    font-weight: bolder;
+    line-height: 1.25;
+    margin-bottom: 0;
+}
+
+
 .site-title {
     padding: 1rem 0 1rem;
 }
@@ -65,17 +109,12 @@ text-align: center;
     margin: 1rem auto;
     max-width: 575px;
     margin-top: 0;
-
 }
 p {
     font-size: 1.1rem;
     font-family: 'Raleway', sans-serif;
 }
 
-h1 {
-    font-family: 'Damion', cursive;
-    color: rgb(69, 211, 203) !important;
-}
 
 h2 {
     font-family: 'Oswald', sans-serif;
@@ -94,6 +133,7 @@ SLIDER
 **********************/
 .slide-wrap {
     position: relative;
+    background-color: #242424;
 }
 .slide-text {
     background-color: #242424;
