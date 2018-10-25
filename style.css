@@ -156,3 +156,12 @@ SLIDER
     }
 }
 
+
+.prezby {
+    margin: 2rem auto;
+}
+
+.top-logo {
+    display: block;
+    margin-top: 10px;
+}
